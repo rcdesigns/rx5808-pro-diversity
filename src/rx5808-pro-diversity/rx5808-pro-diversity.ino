@@ -48,7 +48,7 @@ const uint16_t channelTable[] PROGMEM = {
   0x2903,    0x290C,    0x2916,    0x291F,    0x2989,    0x2992,    0x299C,    0x2A05,    // Band B
   0x2895,    0x288B,    0x2881,    0x2817,    0x2A0F,    0x2A19,    0x2A83,    0x2A8D,    // Band E
   0x2906,    0x2910,    0x291A,    0x2984,    0x298E,    0x2998,    0x2A02,    0x2A0C,    // Band F / Airwave
-  0x281D,    0x288F,    0x2902,    0x2914,    0x2978,    0x2999,    0x2A0C,    0x2A1E     // Band C / Immersion Raceband
+  0x281D,    0x2890,    0x2902,    0x2915,    0x2927,    0x299A,    0x2A0C,    0x2A1F     // Band C / Immersion Raceband
 };
 
 // Channels with their Mhz Values
@@ -72,7 +72,7 @@ const uint8_t channelNames[] PROGMEM = {
 
 // All Channels of the above List ordered by Mhz
 const uint8_t channelList[] PROGMEM = {
-  19, 18, 32, 17, 33, 16, 7, 34, 8, 24, 6, 9, 25, 5, 35, 10, 26, 4, 11, 27, 3, 36, 12, 28, 2, 13, 29, 37, 1, 14, 30, 0, 15, 31, 38, 20, 21, 39, 22, 23
+  19, 32, 18, 17, 33, 16, 7, 34, 8, 24, 6, 9, 25, 5, 35, 10, 26, 4, 11, 27, 3, 36, 12, 28, 2, 13, 29, 37, 1, 14, 30, 0, 15, 31, 38, 20, 21, 39, 22, 23
 };
 
 SET_RSSI_PINS;
